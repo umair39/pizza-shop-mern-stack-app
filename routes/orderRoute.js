@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { v4: uuidv4 } = require("uuid");
 const stripe = require("stripe")(
-  " insert secret key here "
+  "sk_test_51Jw49vAq9NC7TbSBkkJVYHplEGRTeFVbxWT6YGssr8Zja5ebiO7vYEbwETD9fy9XipMwdZOPInAnlaUzo3DTbePs00cM2JZ3n8"
 );
 const Order = require("../models/orderModel"); 
 
